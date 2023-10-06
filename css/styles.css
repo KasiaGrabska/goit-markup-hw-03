@@ -256,7 +256,7 @@ img {
 }
 .person {
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 4px;
 }
 .second {
     padding: 32px 0px;
@@ -266,5 +266,15 @@ img {
 }
 .paragraph {
     text-align: center;
+}
+.background {
+    padding: 100px 0;
+}
+.link-block {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.second-paragraph {
+    max-width: 264px;
 }
    
