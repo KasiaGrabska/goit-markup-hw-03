@@ -176,4 +176,32 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+img {
+    display: block;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.first {
+    display: flex
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.logo-link {
+    margin-right: 76px;
+}
+.list {
+    display: flex;
+    gap: 40px;
+}
+.first-link {
+    padding: 24px 0px;
+}
    
