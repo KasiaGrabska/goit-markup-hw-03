@@ -71,7 +71,7 @@ ul {
 }
 .first-button {
     color: #ffffff;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -204,4 +204,40 @@ img {
 .first-link {
     padding: 24px 0px;
 }
+.first-section {
+    padding:188px 0px;
+}
+.title {
+    max-width: 496px
+}
+.first-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+}
+.second-section {
+    padding: 120px 0px;
+
+}
+h2 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.list-two {
+    gap: 24px;
+}
+.title-list {
+    width: calc((100% - 72px)/4);
+}
+.title-two {
+    margin-bottom: 8px;
+}
+
    
