@@ -12,6 +12,17 @@ body {
 ul {
     list-style-type: none;
 }
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
 .logo-link {
     color:#4d5ae5;
     text-decoration: none;
@@ -260,7 +271,10 @@ img {
     margin-bottom: 72px;
 }
 .people {
-    border-radius: 0px 4px;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px; 
+    border-top-right-radius: 4px; 
+    border-bottom-left-radius: 4px;
     width: calc((100% - 72px)/4);
 }
 .second {
