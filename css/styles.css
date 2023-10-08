@@ -23,6 +23,11 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .logo-link {
     color:#4d5ae5;
     text-decoration: none;
@@ -204,6 +209,7 @@ img {
 .navigation {
     display: flex;
     align-items: center;
+    padding-right: 332px;
 }
 .logo-link {
     margin-right: 76px;
@@ -215,11 +221,16 @@ img {
 .first-link {
     padding: 24px 0px;
 }
+.address {
+    padding: 24px 0px;
+}
 .first-section {
     padding:188px 0px;
 }
 .title {
-    max-width: 496px
+    max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 .first-button {
     display: block;
@@ -227,6 +238,10 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .second-section {
     padding: 120px 0px;
@@ -327,6 +342,9 @@ img {
 }
 .app {
     margin-bottom: 8px;
+}
+.category {
+    text-align: left;
 }
 
    
